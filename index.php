@@ -21,7 +21,7 @@
             <div class="header-text-block">
                 <div class="main-title-block">
                     <div class="logotip-text">
-                        <h3>Rio Barbershop пробна версія</h3>
+                        <h3>Rio Barbershop</h3>
                         <img src="img/icons8-lion-40.png" alt="">
                     </div>
                     <h1>Ми допоможемо вам отримати свій новий стиль</h1>
