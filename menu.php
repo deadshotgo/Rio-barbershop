@@ -8,7 +8,7 @@
     </div>
     <ul class="main-menu animate__animated">
         <li class="menu-item"><a href="index.php">Головна сторінка</a></li>
-        <li class="menu-item"><a href="services.php">Послуги</a></li>
+        <li class="menu-item"><a href="services.php"></a></li>
         <li class="menu-item"><a href="gallery.php">Галерея</a></li>
         <?php
         if(@$_COOKIE['admin']) {
