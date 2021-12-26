@@ -24,10 +24,10 @@
                     <?php foreach ($user_data as $row) { ?>
                 <div class="price-item">
                     <div class="ser-info">
-                        <p><?php echo $row['title']?> <span>~<?php echo $row['time']?> мин</span></p>
+                        <p><?php echo $row['title']?> <span>~<?php echo $row['time']?> хв</span></p>
                     </div>
                     <div class="price">
-                        <p>від <?php echo $row['price']?> руб</p>
+                        <p>від <?php echo $row['price']?> грн</p>
                     </div>
                 </div>
                 <?php }?>
