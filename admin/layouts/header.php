@@ -150,6 +150,32 @@
                         </ul>
                     </li>
 
+                    <li class="nav-item has-treeview ">
+                        <a href="" class="nav-link ">
+                            <i class="nav-icon fas fa-icons"></i>
+                            <p>
+                                Співробітники
+                                <i class="right fas fa-angle-left"></i>
+                            </p>
+                        </a>
+                        <ul class="nav nav-treeview">
+
+                            <li class="nav-item">
+                                <a href="/admin/employee/all.php" class="nav-link">
+                                    <i class="nav-icon fas fa-compact-disc"></i>
+                                    <p>Всі співробітники</p>
+                                </a>
+                            </li>
+
+                            <li class="nav-item">
+                                <a href="/admin/employee/add.php" class="nav-link ">
+                                    <i class="nav-icon fas fa-plus"></i>
+                                    <p>Додати робітника</p>
+                                </a>
+                            </li>
+                        </ul>
+                    </li>
+
 
 
                 </ul>
