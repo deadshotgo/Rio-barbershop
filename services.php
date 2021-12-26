@@ -27,7 +27,7 @@
                         <p><?php echo $row['title']?> <span>~<?php echo $row['time']?> мин</span></p>
                     </div>
                     <div class="price">
-                        <p>від <?php echo $row['price']?>грн</p>
+                        <p>від <?php echo $row['price']?> руб</p>
                     </div>
                 </div>
                 <?php }?>
