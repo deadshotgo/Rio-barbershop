@@ -1,0 +1,70 @@
+@media (max-width:1200px)
+	
+@media (max-width:992px)
+	.header
+		.nav
+			.menu-logo
+				p
+					display: none
+@media (max-width:768px)
+	.header
+		height: 100%
+		.nav
+			text-align: center
+			display: block
+			.menu-logo
+				justify-content: center
+			.main-menu
+				display: none
+				margin-top: 10px
+				padding: 20px 0px
+				text-transform: uppercase
+				background-color: $mainColor
+				opacity: 0.1
+				margin-bottom: 30px
+				.menu-item
+					padding: 10px 0px
+				.menu-item:not(:last-child)
+					margin-right: 0px
+			.menuActive
+				display: block
+			.home-icon
+				margin: 20px 0px
+				display: block
+		.header-text-block
+			max-width: 100%
+			text-align: center
+			.logotip-text
+				justify-content: center
+	.about-us
+		height: 100%
+	.our-masters
+		.master
+			grid-template-columns: 1fr
+			grid-template-rows: 1fr 1fr
+			grid-row-gap: 30px
+	.gallery-block
+		.slider-wrapper
+			grid-template-columns: 1fr
+	.footer
+		.footer-block
+			display: block
+			text-align: center
+			.self-information
+				display: block
+				padding: 10px 0px
+				i
+					margin-right: 0
+				.info-self-item
+					max-width: 100%
+
+@media (max-width:578px)
+	.our-room
+		.gallery, .gallery-second
+			grid-template-columns: 1fr
+			padding: 0px 0px
+			.gallery-item
+				padding: 20px 0px
+	.our-masters
+		.certificate
+			min-height: 300px

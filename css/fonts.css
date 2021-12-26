@@ -1,0 +1,24 @@
+@font-face {
+  font-family: 'corinthia';
+  src: url('../fonts/Corinthia-Regular.ttf');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+	font-family: 'Playfair';
+	src: url('../fonts/PlayfairDisplay-ExtraBoldItalic.ttf');
+	font-weight: bold;
+	font-style: normal;
+}
+@font-face {
+	font-family: 'Playfair-regular';
+	src: url('../fonts/PlayfairDisplay-Regular.ttf');
+	font-weight: normal;
+	font-style: normal;
+}
+@font-face {
+	font-family: 'Lobster';
+	src: url('../fonts/Lobster-Regular.ttf');
+	font-weight: normal;
+	font-style: normal;
+}

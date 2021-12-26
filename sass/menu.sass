@@ -1,0 +1,60 @@
+.nav
+	max-width: 1320px
+	margin: 0 auto
+	padding: 0px 10px
+	display: flex
+	padding-top: 10px
+	align-items: center
+	justify-content: space-between
+	color: #fff
+	.menu-logo
+		display: flex
+		align-items: center
+		img
+			max-width: 64px
+			max-height: 64px
+		p
+			font-family: 'Playfair'
+			margin-left: 20px
+			font-weight: 700
+			font-size: 24px
+			padding: 2px 0px 5px 0px
+			border-top: 3px solid $mainColor
+			border-bottom: 3px solid $mainColor
+	// .menuActive
+	// 	display: block
+	.main-menu
+		display: flex
+		font-family: 'Playfair'
+		font-size: 18px
+		.menu-item a
+			color: #fff
+		.menu-item:not(:last-child)
+			margin-right: 40px
+		.menu-item a:hover
+			transition: all 0.2s ease
+			padding: 2px 0px 5px 0px
+			border-top: 3px solid $mainColor
+			border-bottom: 3px solid $mainColor
+	.home-icon
+		display: none
+		cursor: pointer
+		i
+			font-size: 42px
+	.instagram
+		font-size: 42px
+		.insta-icon
+			background: rgb(255,221,85)
+			background: linear-gradient(60deg, rgba(255,221,85,1) 5%, rgba(242,41,191,1) 51%, rgba(200,55,171,1) 100%)
+	.phone-block
+		padding: 20px 0px
+		.phone
+			padding: 10px 25px
+			border: 2px solid #fff
+			border-radius: 20px
+			font-weight: 700
+			color: #fff
+		.phone:hover
+			transition: all 0.3s ease
+			border-color: $mainColor
+			box-shadow: -2px 3px 36px 16px rgba(195, 145, 84, 0.6)

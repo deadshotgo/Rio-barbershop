@@ -1,0 +1,61 @@
+@import '../css/fonts.css'
+@import 'variables.sass'
+@import 'menu.sass'
+@import 'footer.sass'
+@import 'main.sass'
+@import 'adaptive.sass'
+@import 'services.sass'
+@import 'contacts.sass'
+
+html
+	scroll-behavior: smooth
+body
+	background-color: $darkColor
+	font-family: 'Playfair'
+	margin: 0
+	padding: 0
+a
+	text-decoration: none
+	list-style: none
+li
+	list-style-type: none
+	list-style: none
+h2
+	font-size: 36px
+h3
+	font-size: 28px
+.container
+	max-width: 1200px
+	margin: 0 auto
+	padding: 0px 10px
+.btn-ser
+	color: #fff
+	font-size: 20px
+	padding: 10px 25px
+	background-color: $mainColor
+.btn-ser:hover
+	transition: all 1s ease
+	border-radius: 20px 0px
+	color: #000
+.light-bg
+	background-color: #f5f2e9
+.scrollUp-btn
+	position: fixed
+	bottom: 25px
+	right: 25px
+	color: $mainColor
+	font-size: 50px
+	border-radius: 50%
+	display: flex
+	align-items: center
+	z-index: 1
+	i
+		font-size: 50px
+.scrollUp-btn:hover
+	transition: all 0.5s ease
+	color: #00CED1
+.isShowBtn
+	opacity: 1
+	transition: all 0.5s ease
+.isShowBtn_hide
+	opacity: 0
