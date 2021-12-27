@@ -121,9 +121,8 @@
                       </div>
                   </div>
               </div>
+
         <?php } elseif ($i !== 0) { ?>
-
-
               <div class="master">
                   <div class="info-master">
                       <div class="master-name-hover">
