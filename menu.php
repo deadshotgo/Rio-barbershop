@@ -2,6 +2,17 @@
 	<div class="menu-logo">
 		<a href="index.php"><img src="img/logo.png" alt="" class="icon"></a>
 		<p>Rio Barbershop</p>
+        <?php
+        if(@$_COOKIE['admin']) {
+            echo '<a class="admin-icon" href="/admin/index.php"><i class="fas fa-user-lock"></i></a>';
+        };
+        ?>
+        <?php
+        if(@!$_COOKIE['admin']){
+            echo '<a class="admin-icon" href="admin/login/index.php"><i class="fas fa-user-cog"></i></a>';
+        };
+
+        ?>
 	</div>
 	<div class="home-icon">
     	<i class="fas fa-home"></i>
@@ -10,17 +21,6 @@
         <li class="menu-item"><a href="index.php">Головна</a></li>
         <li class="menu-item"><a href="services.php">Послуги</a></li>
         <li class="menu-item"><a href="gallery.php">Галерея</a></li>
-        <?php
-        if(@$_COOKIE['admin']) {
-            echo '<li class="menu-item"><a href="/admin/index.php">Адмін</a></li>';
-        };
-        ?>
-        <?php
-        if(@!$_COOKIE['admin']){
-            echo '<li class="menu-item"><a href="admin/login/index.php">Увійти</a></li>';
-        };
-
-        ?>
     </ul>
     <a class="instagram" href="https://www.instagram.com/rio_barber_/?utm_medium=copy_link"><i style="-webkit-background-clip: text; -webkit-text-fill-color: transparent;" class="fab fa-instagram insta-icon"></i></a>
     <div class="phone-block">
