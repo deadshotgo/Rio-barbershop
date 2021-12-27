@@ -18,9 +18,21 @@
         <?php
             include('menu.php')
         ?>
+        <div id="wrapper-modal">
+            <div id="overlay"></div>
+            <div id="modal-window">
+                <div>
+                    <i id="btn-close" class="far fa-times-circle"></i>
+                </div>
+                <div class="content">
+                    <iframe style="height: 500px; width: 350px;" src="https://torrow.net/app/tabs/tab-search/service;id=aae6703ed4122efa7c5b7dca275a45d1c" frameborder="0"></iframe>
+                </div>
+            </div>
+        </div>
     </hedrer>
     <section class="services bg-services animate__animated animate__fadeInUp">
         <div class="container">
+            <a id="btn-open" class="btn-ser">Записатися на прийом</a>
             <div class="services-price">
 
                     <?php foreach ($user_data as $row) { ?>
@@ -50,6 +62,7 @@
 
     <script src="https://kit.fontawesome.com/8c3e319e45.js" crossorigin="anonymous"></script>
     <script src="js/menu.js"></script>
+    <script src="js/main.js"></script>
     <script src="js/scroll.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js" integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
