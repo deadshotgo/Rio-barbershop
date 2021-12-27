@@ -40,6 +40,7 @@
 
     <!-- Google Font: Source Sans Pro -->
     <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,400i,700" rel="stylesheet">
+    <link rel="stylesheet" href="../schedule/schedule.css">
 </head>
 <body class="hold-transition sidebar-mini layout-fixed">
 <div class="wrapper">
@@ -173,6 +174,16 @@
                                 </a>
                             </li>
                         </ul>
+                    </li>
+
+                    <li class="nav-item has-treeview ">
+                        <a href="/admin/schedule/index.php" class="nav-link ">
+                            <i class="far fa-calendar-alt"></i>
+                            <p>
+                                Записи
+                                <i class="right fas fa-angle-left"></i>
+                            </p>
+                        </a>
                     </li>
 
 

@@ -356,6 +356,10 @@
       background-color: #bf905c;
       padding: 10px 0px 15px 0px; }
 
+.schedule-menu {
+  width: 400px;
+  height: 800px; }
+
 .contact {
   color: #fff; }
   .contact .contact-block {
