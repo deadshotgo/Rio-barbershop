@@ -26,7 +26,18 @@
                     <img src="img/icons8-lion-40.png" alt="">
                 </div>
                 <h1>Ми допоможемо вам отримати свій новий стиль</h1>
-                <a href="" class="btn-ser">Записатися на прийом</a>
+                <a id="btn-open" class="btn-ser">Записатися на прийом</a>
+                <div id="wrapper-modal">
+                  <div id="overlay"></div>
+                  <div id="modal-window">
+                    <div>
+                      <i id="btn-close" class="far fa-times-circle"></i>
+                    </div>
+                    <div class="content">
+                      <iframe style="height: 500px; width: 350px;" src="https://torrow.net/app/tabs/tab-search/service;id=aae6703ed4122efa7c5b7dca275a45d1c" frameborder="0"></iframe>
+                    </div>
+                  </div>
+                </div>
             </div>
         </div>
     </div>
