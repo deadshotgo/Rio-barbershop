@@ -80,7 +80,7 @@
                     </li>
                     <li class="nav-item has-treeview ">
                         <a href="" class="nav-link ">
-                            <i class="nav-icon fas fa-icons"></i>
+                            <i class="fas fa-images"></i>
                             <p>
                                 Галерея
                                 <i class="right fas fa-angle-left"></i>
@@ -90,7 +90,7 @@
 
                             <li class="nav-item">
                                 <a href="/admin/gallery/all.php" class="nav-link">
-                                    <i class="nav-icon fas fa-compact-disc"></i>
+                                    <i class="fas fa-icons"></i>
                                     <p>Всі світлини </p>
                                 </a>
                             </li>
@@ -98,7 +98,7 @@
                             <li class="nav-item">
                                 <a href="/admin/gallery/add.php" class="nav-link ">
                                     <i class="nav-icon fas fa-plus"></i>
-                                    <p>Додати світлину </p>
+                                    <p>Додати</p>
                                 </a>
                             </li>
                         </ul>
@@ -106,9 +106,9 @@
 
                     <li class="nav-item has-treeview ">
                         <a href="" class="nav-link ">
-                            <i class="nav-icon fas fa-icons"></i>
+                            <i class="fas fa-concierge-bell"></i>
                             <p>
-                              Види
+                              Послуги
                                 <i class="right fas fa-angle-left"></i>
                             </p>
                         </a>
@@ -116,15 +116,15 @@
 
                             <li class="nav-item">
                                 <a href="/admin/services/all.php" class="nav-link">
-                                    <i class="nav-icon fas fa-compact-disc"></i>
-                                    <p>Всі Види </p>
+                                    <i class="fas fa-concierge-bell"></i>
+                                    <p>Всі послуги </p>
                                 </a>
                             </li>
 
                             <li class="nav-item">
                                 <a href="/admin/services/add.php" class="nav-link ">
                                     <i class="nav-icon fas fa-plus"></i>
-                                    <p>Додати Вид</p>
+                                    <p>Додати</p>
                                 </a>
                             </li>
                         </ul>
@@ -132,9 +132,9 @@
 
                     <li class="nav-item has-treeview ">
                         <a href="" class="nav-link ">
-                            <i class="nav-icon fas fa-icons"></i>
+                            <i class="fas fa-address-card"></i>
                             <p>
-                                Tекст
+                                Про нас
                                 <i class="right fas fa-angle-left"></i>
                             </p>
                         </a>
@@ -142,8 +142,8 @@
 
                             <li class="nav-item">
                                 <a href="/admin/text/index.php" class="nav-link">
-                                    <i class="nav-icon fas fa-compact-disc"></i>
-                                    <p>редактувати текст </p>
+                                    <i class="fas fa-edit"></i>
+                                    <p>Редактувати текст</p>
                                 </a>
                             </li>
 
@@ -152,7 +152,7 @@
 
                     <li class="nav-item has-treeview ">
                         <a href="" class="nav-link ">
-                            <i class="nav-icon fas fa-icons"></i>
+                            <i class="fas fa-user-friends"></i>
                             <p>
                                 Співробітники
                                 <i class="right fas fa-angle-left"></i>
@@ -162,7 +162,7 @@
 
                             <li class="nav-item">
                                 <a href="/admin/employee/all.php" class="nav-link">
-                                    <i class="nav-icon fas fa-compact-disc"></i>
+                                    <i class="fas fa-users"></i>
                                     <p>Всі співробітники</p>
                                 </a>
                             </li>
@@ -170,7 +170,7 @@
                             <li class="nav-item">
                                 <a href="/admin/employee/add.php" class="nav-link ">
                                     <i class="nav-icon fas fa-plus"></i>
-                                    <p>Додати робітника</p>
+                                    <p>Додати</p>
                                 </a>
                             </li>
                         </ul>
