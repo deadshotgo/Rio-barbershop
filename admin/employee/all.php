@@ -36,15 +36,15 @@ include '../layouts/header.php'
             }
             unset($_SESSION['edit']);
             ?>
-<?php foreach ($user_data as $row){?>
-            <div class="col-12 col-sm-6 col-md-4 d-flex align-items-stretch">
+<?php foreach ($user_data1 as $row){?>
+            <div class="col-12 col-sm-12 col-md-4 d-flex align-items-stretch">
                 <div class="card bg-light">
                     <div class="card-header text-muted border-bottom-0">
                         Digital Strategist
                     </div>
                     <div class="card-body pt-0">
                         <div class="row">
-                            <div class="col-9">
+                            <div class="col-12">
                                 <h2 class="lead"><b><?= $row['name'] ?></b></h2>
                                 <p><?= $row['experience']?></p>
                                 <p class="text-muted text-sm"><b>About: </b> <?= $row['text'] ?> </p>

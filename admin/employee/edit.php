@@ -31,13 +31,13 @@ include '../controller/Employee/edit.php';
                     </div>
                 </div>
                 <div class="form-group">
-                    <label for="feature_image">Виберіть світлину(не обовязково)</label>
+                    <label for="feature_image">Виберіть світлину(обовязково)</label>
                     <input  class="form-control" type="file"  name="full_avatar"
                            value="<?= $row['certificate']?>">
 
                 </div>
                 <div class="form-group">
-                    <label for="feature_image">Виберіть сертефікат(не обовязково)</label>
+                    <label for="feature_image">Виберіть сертефікат(обовязково)</label>
 
                     <input class="form-control" type="file"  name="full_se"
                            value="<?= $row['avatar']?>">
