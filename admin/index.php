@@ -1,4 +1,6 @@
-<?php  include  'layouts/header.php';?>
+<?php  include  'layouts/header.php';
+include  'controller/index.php';
+?>
 
 
 
@@ -8,7 +10,7 @@
             <div class="container-fluid">
                 <div class="row mb-2">
                     <div class="col-sm-6">
-                        <h1  class="m-0 text-dark">Home</h1>
+                        <h1  class="m-0 text-dark">Головна</h1>
                     </div><!-- /.col -->
 
                 </div><!-- /.row -->
@@ -25,9 +27,10 @@
                         <!-- small box -->
                         <div class="small-box bg-info">
                             <div class="inner">
-                                <h3>0</h3>
 
-                                <p>Music</p>
+                                <h3><?= $j;?></h3>
+
+                                <p>Послуги</p>
                             </div>
                             <div class="icon">
                                 <i class="fas fa-music"></i>
@@ -41,9 +44,9 @@
                         <!-- small box -->
                         <div class="small-box bg-success">
                             <div class="inner">
-                                <h3>0</h3>
+                                <h3><?= $z;?></h3>
 
-                                <p>Ganre</p>
+                                <p>Галерея</p>
                             </div>
                             <div class="icon">
                                 <i class="fas fa-compact-disc"></i>
@@ -57,9 +60,9 @@
                         <!-- small box -->
                         <div class="small-box bg-warning">
                             <div class="inner">
-                                <h3>0</h3>
+                                <h3><?= $x;?></h3>
 
-                                <p>User Registrations</p>
+                                <p>Співробітники</p>
                             </div>
                             <div class="icon">
                                 <i class="ion ion-person-add"></i>

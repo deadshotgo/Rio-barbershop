@@ -4,12 +4,12 @@
 		<p>Rio Barbershop</p>
         <?php
         if(@$_COOKIE['admin']) {
-            echo '<a class="admin-icon" href="/admin/index.php"><i class="fas fa-user-cog"></i></a>';
+            echo '<a class="admin-icon" href="/admin/index.php"><i class="fas fa-user-lock"></i></a>';
         };
         ?>
         <?php
         if(@!$_COOKIE['admin']){
-            echo '<a class="admin-icon" href="admin/login/index.php"><i class="fas fa-user-lock"></i></a>';
+            echo '<a class="admin-icon" href="admin/login/index.php"><i class="fas fa-user-cog"></i></a>';
         };
 
         ?>

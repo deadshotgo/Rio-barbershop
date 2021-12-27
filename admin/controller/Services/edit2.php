@@ -2,6 +2,9 @@
 session_start();
 $connect = mysqli_connect("localhost", "root", "", "rio_barbershop");
 
+if(!$connect) {
+    die("Mysql no work,pleas check connect mysql");
+}
 $title = $_POST['title'];
 $time = $_POST['time'];
 $price = $_POST['price'];

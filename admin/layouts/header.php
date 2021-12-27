@@ -73,8 +73,7 @@
                     <li class="nav-item">
                         <a href="/admin/index.php" class="nav-link">
                             <i class="nav-icon fas fa-tachometer-alt"></i>
-                            <p>
-                                Главная
+                            <p>Головна
                             </p>
                         </a>
                     </li>

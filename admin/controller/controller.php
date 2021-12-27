@@ -3,7 +3,7 @@
 $connect = mysqli_connect("localhost", "root", "", "rio_barbershop");
 
 if(!$connect) {
-    die("error mysql");
+    die("Mysql no work,pleas check connect mysql");
 }
 
 $email = $_POST['email'];

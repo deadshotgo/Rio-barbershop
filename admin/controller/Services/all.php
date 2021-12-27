@@ -1,7 +1,9 @@
 <?php
 $connect = mysqli_connect("localhost", "root", "", "rio_barbershop");
 
-
+if(!$connect) {
+    die("Mysql no work,pleas check connect mysql");
+}
 $result = mysqli_query($connect, " SELECT * FROM services;");
 
 
