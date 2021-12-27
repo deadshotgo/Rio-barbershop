@@ -373,7 +373,8 @@ body {
 
 a {
   text-decoration: none;
-  list-style: none; }
+  list-style: none;
+  cursor: pointer; }
 
 li {
   list-style-type: none;
