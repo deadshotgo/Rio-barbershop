@@ -334,6 +334,23 @@
 .bg-services {
   color: #fff; }
 
+.carousel-ser {
+  text-align: center;
+  color: #fff;
+  padding: 50px 0px; }
+  .carousel-ser h3 {
+    margin: 40px 0px; }
+
+.owl-carousel {
+  color: #fff; }
+  .owl-carousel h3 {
+    margin: 0; }
+  .owl-carousel .item {
+    text-align: center; }
+    .owl-carousel .item .price {
+      background-color: #bf905c;
+      padding: 10px 0px 15px 0px; }
+
 .contact {
   color: #fff; }
   .contact .contact-block {
