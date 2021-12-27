@@ -99,53 +99,55 @@
     <?php $i = 1;
     foreach ($user_data1 as $row) {
           if ($i % 2 == 0) { ?>
-            <div class="master">
-                <div class="info-master">
-                    <div class="master-name-hover">
-                        <div class="master-info-text-block">
-                            <img src="/admin/controller/<?= $row['certificate'] ?>" alt="">
-                        </div>
-                    </div>
-                    <div class="certificate">
-                        <h3>Сертифікат</h3>
-                    </div>
-                </div>
-                <div class="info-master">
-                    <div class="master-name-hover">
-                        <div class="master-info-text-block">
-                            <h3><?= $row['name']  ?></h3>
-                            <p><?= $row['experience'] ?></p>
-                            <p><?= $row['text'] ?></p>
-                        </div>
-                    </div>
-
-                    <img src="/admin/controller/<?= $row['avatar'] ?>" alt="">
-
-                </div>
-            </div>
+              <div class="master">
+                  <div class="info-master">
+                      <div class="master-name-hover">
+                          <div class="master-info-text-block">
+                              <h3><?= $row['name'] ?></h3>
+                              <p><?= $row['experience'] ?></p>
+                              <p><?= $row['text'] ?></p>
+                          </div>
+                      </div>
+                      <img src="/admin/controller/<?= $row['avatar'] ?>" alt="">
+                  </div>
+                  <div class="info-master">
+                      <div class="master-name-hover">
+                          <div class="master-info-text-block">
+                              <img src="/admin/controller/<?= $row['certificate'] ?>" alt="">
+                          </div>
+                      </div>
+                      <div class="certificate">
+                          <h3>Сертифікат</h3>
+                      </div>
+                  </div>
+              </div>
         <?php } elseif ($i !== 0) { ?>
-            <div class="master">
-                <div class="info-master">
-                    <div class="master-name-hover">
-                        <div class="master-info-text-block">
-                            <h3><?= $row['name'] ?></h3>
-                            <p><?= $row['experience'] ?></p>
-                            <p><?= $row['text'] ?></p>
-                        </div>
-                    </div>
-                    <img src="/admin/controller/<?= $row['avatar'] ?>" alt="">
-                </div>
-                <div class="info-master">
-                    <div class="master-name-hover">
-                        <div class="master-info-text-block">
-                            <img src="/admin/controller/<?= $row['certificate'] ?>" alt="">
-                        </div>
-                    </div>
-                    <div class="certificate">
-                        <h3>Сертифікат</h3>
-                    </div>
-                </div>
-            </div>
+
+
+              <div class="master">
+                  <div class="info-master">
+                      <div class="master-name-hover">
+                          <div class="master-info-text-block">
+                              <img src="/admin/controller/<?= $row['certificate'] ?>" alt="">
+                          </div>
+                      </div>
+                      <div class="certificate">
+                          <h3>Сертифікат</h3>
+                      </div>
+                  </div>
+                  <div class="info-master">
+                      <div class="master-name-hover">
+                          <div class="master-info-text-block">
+                              <h3><?= $row['name']  ?></h3>
+                              <p><?= $row['experience'] ?></p>
+                              <p><?= $row['text'] ?></p>
+                          </div>
+                      </div>
+
+                      <img src="/admin/controller/<?= $row['avatar'] ?>" alt="">
+
+                  </div>
+              </div>
         <?php }
         $i++;
          }?>
