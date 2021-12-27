@@ -160,7 +160,7 @@ return /******/ (function(modules) { // webpackBootstrap
         insert: 'Inserează link',
         unlink: 'Înlătură link',
         edit: 'Editează',
-        textToDisplay: 'Text ce va fi afişat',
+        textToDisplay: 'TextController ce va fi afişat',
         url: 'La ce adresă URL trebuie să conducă acest link?',
         openInNewWindow: 'Deschidere în fereastră nouă'
       },

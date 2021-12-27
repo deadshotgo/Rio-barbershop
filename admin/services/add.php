@@ -17,7 +17,7 @@ include '../layouts/header.php';
     <div class="card-header">
         <h3 class="card-title">General</h3>
     </div>
-    <form method="post" action="../controller/Services/add.php">
+    <form method="post" action="../controller/ServicesController/add.php">
     <div class="card-body">
         <div class="form-group">
             <label  for="inputName">Назва </label>

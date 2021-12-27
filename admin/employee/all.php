@@ -1,7 +1,7 @@
 
 <?php
 session_start();
-include '../controller/Employee/all.php';
+include '../controller/EmployeeController/all.php';
 include '../layouts/header.php'
 
 ?>
@@ -55,7 +55,7 @@ include '../layouts/header.php'
                     </div>
                     <div class="card-footer">
                         <div class="text-right" style="display: flex; text-align: end;";>
-                            <form method="post" action="../controller/Employee/del.php" style="margin-right: 10px;">
+                            <form method="post" action="../controller/EmployeeController/del.php" style="margin-right: 10px;">
                                 <input name="id" value="<?= $row['id']?>" hidden>
                               <button class="btn btn-danger">Видалит</button>
                             </form>

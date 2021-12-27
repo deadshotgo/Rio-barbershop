@@ -140,7 +140,7 @@ return /******/ (function(modules) { // webpackBootstrap
         shapeThumbnail: 'Shape: Thumbnail',
         shapeNone: 'Shape: None',
         dragImageHere: 'Пуснете изображението тук',
-        dropImage: 'Drop image or Text',
+        dropImage: 'Drop image or TextController',
         selectFromFiles: 'Изберете файл',
         maximumFileSize: 'Maximum file size',
         maximumFileSizeError: 'Maximum file size exceeded.',

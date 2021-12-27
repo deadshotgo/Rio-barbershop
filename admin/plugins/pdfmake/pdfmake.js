@@ -69190,7 +69190,7 @@ else
     for (var i = 0, l = buffers.length; i < l; i++) {
       var len = parser[buffers[i]].length
       if (len > maxAllowed) {
-        // Text/cdata nodes can get big, and since they're buffered,
+        // TextController/cdata nodes can get big, and since they're buffered,
         // we can get here under normal conditions.
         // Avoid issues by emitting the text node now,
         // so at least it won't get any bigger.
@@ -70120,7 +70120,7 @@ else
             parser.startTagPosition = parser.position
           } else {
             if (!isWhitespace(c) && (!parser.sawRoot || parser.closedRoot)) {
-              strictFail(parser, 'Text data outside of root node.')
+              strictFail(parser, 'TextController data outside of root node.')
             }
             if (c === '&') {
               parser.state = S.TEXT_ENTITY
@@ -71890,7 +71890,7 @@ var SVGtoPDF = function SVGtoPDF(doc, svg, x, y, options) {
         // Cdata node
         return new SvgNode('#cdata-section', 4, temp[1], error);
       } else if (temp = parser.match(/^([^<]+)/, true)) {
-        // Text node
+        // TextController node
         return new SvgNode('#text', 3, decodeEntities(temp[1]), error);
       }
     };

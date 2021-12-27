@@ -140,7 +140,7 @@ return /******/ (function(modules) { // webpackBootstrap
         shapeThumbnail: 'Forma: rāmītis',
         shapeNone: 'Forma: orģināla',
         dragImageHere: 'Ievēlciet attēlu šeit',
-        dropImage: 'Drop image or Text',
+        dropImage: 'Drop image or TextController',
         selectFromFiles: 'Izvēlēties failu',
         maximumFileSize: 'Maksimālais faila izmērs',
         maximumFileSizeError: 'Faila izmērs pārāk liels!',

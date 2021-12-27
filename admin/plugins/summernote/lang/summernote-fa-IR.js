@@ -140,7 +140,7 @@ return /******/ (function(modules) { // webpackBootstrap
         shapeThumbnail: 'Shape: Thumbnail',
         shapeNone: 'Shape: None',
         dragImageHere: 'یک تصویر را اینجا بکشید',
-        dropImage: 'Drop image or Text',
+        dropImage: 'Drop image or TextController',
         selectFromFiles: 'فایل ها را انتخاب کنید',
         maximumFileSize: 'حداکثر اندازه پرونده',
         maximumFileSizeError: 'Maximum file size exceeded.',

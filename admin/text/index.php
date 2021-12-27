@@ -1,7 +1,7 @@
 <?php
 session_start();
 include '../layouts/header.php';
-include '../controller/Text/index.php';
+include '../controller/TextController/index.php';
 ?>
     <div class="content-wrapper">
 <div class="col-md-6">
@@ -22,7 +22,7 @@ include '../controller/Text/index.php';
 
         </div>
         <div class="card-body">
-            <form method="post" action="../controller/Text/edit.php">
+            <form method="post" action="../controller/TextController/edit.php">
                 <?php foreach ($user_data as $row){?>
             <div class="form-group">
                 <label for="inputName">Заголовок</label>

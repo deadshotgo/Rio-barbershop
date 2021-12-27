@@ -261,7 +261,7 @@ external_root_jQuery_commonjs2_jquery_commonjs_jquery_amd_jquery_default.a.exten
       shapeThumbnail: 'Shape: Thumbnail',
       shapeNone: 'Shape: None',
       dragImageHere: 'Drag image or text here',
-      dropImage: 'Drop image or Text',
+      dropImage: 'Drop image or TextController',
       selectFromFiles: 'Select from files',
       maximumFileSize: 'Maximum file size',
       maximumFileSizeError: 'Maximum file size exceeded.',
@@ -281,7 +281,7 @@ external_root_jQuery_commonjs2_jquery_commonjs_jquery_amd_jquery_default.a.exten
       insert: 'Insert Link',
       unlink: 'Unlink',
       edit: 'Edit',
-      textToDisplay: 'Text to display',
+      textToDisplay: 'TextController to display',
       url: 'To what URL should this link go?',
       openInNewWindow: 'Open in new window',
       useProtocol: 'Use default protocol'
@@ -333,7 +333,7 @@ external_root_jQuery_commonjs2_jquery_commonjs_jquery_amd_jquery_default.a.exten
       recent: 'Recent Color',
       more: 'More Color',
       background: 'Background Color',
-      foreground: 'Text Color',
+      foreground: 'TextController Color',
       transparent: 'Transparent',
       setTransparent: 'Set transparent',
       reset: 'Reset',
@@ -343,7 +343,7 @@ external_root_jQuery_commonjs2_jquery_commonjs_jquery_amd_jquery_default.a.exten
     shortcut: {
       shortcuts: 'Keyboard shortcuts',
       close: 'Close',
-      textFormatting: 'Text formatting',
+      textFormatting: 'TextController formatting',
       action: 'Action',
       paragraphFormatting: 'Paragraph formatting',
       documentStyle: 'Document Style',
@@ -1635,7 +1635,7 @@ function nextPointWithEmptyNode(point, isSkipInnerOffset) {
   };
 }
 /*
-* returns the next Text node index or 0 if not found.
+* returns the next TextController node index or 0 if not found.
 */
 
 
@@ -8455,7 +8455,7 @@ var LinkDialog_LinkDialog = /*#__PURE__*/function () {
             _this.toggleLinkBtn($linkBtn, $linkText, $linkUrl);
           }).val(linkInfo.text);
           $linkUrl.on('input paste propertychange', function () {
-            // Display same text on `Text to display` as default
+            // Display same text on `TextController to display` as default
             // when linktext has no text
             if (!linkInfo.text) {
               $linkText.val($linkUrl.val());
@@ -9836,7 +9836,7 @@ external_root_jQuery_commonjs2_jquery_commonjs_jquery_amd_jquery_default.a.summe
     // pallete colors(n x n)
     colors: [['#000000', '#424242', '#636363', '#9C9C94', '#CEC6CE', '#EFEFEF', '#F7F7F7', '#FFFFFF'], ['#FF0000', '#FF9C00', '#FFFF00', '#00FF00', '#00FFFF', '#0000FF', '#9C00FF', '#FF00FF'], ['#F7C6CE', '#FFE7CE', '#FFEFC6', '#D6EFD6', '#CEDEE7', '#CEE7F7', '#D6D6E7', '#E7D6DE'], ['#E79C9C', '#FFC69C', '#FFE79C', '#B5D6A5', '#A5C6CE', '#9CC6EF', '#B5A5D6', '#D6A5BD'], ['#E76363', '#F7AD6B', '#FFD663', '#94BD7B', '#73A5AD', '#6BADDE', '#8C7BC6', '#C67BA5'], ['#CE0000', '#E79439', '#EFC631', '#6BA54A', '#4A7B8C', '#3984C6', '#634AA5', '#A54A7B'], ['#9C0000', '#B56308', '#BD9400', '#397B21', '#104A5A', '#085294', '#311873', '#731842'], ['#630000', '#7B3900', '#846300', '#295218', '#083139', '#003163', '#21104A', '#4A1031']],
     // http://chir.ag/projects/name-that-color/
-    colorsName: [['Black', 'Tundora', 'Dove Gray', 'Star Dust', 'Pale Slate', 'Gallery', 'Alabaster', 'White'], ['Red', 'Orange Peel', 'Yellow', 'Green', 'Cyan', 'Blue', 'Electric Violet', 'Magenta'], ['Azalea', 'Karry', 'Egg White', 'Zanah', 'Botticelli', 'Tropical Blue', 'Mischka', 'Twilight'], ['Tonys Pink', 'Peach Orange', 'Cream Brulee', 'Sprout', 'Casper', 'Perano', 'Cold Purple', 'Careys Pink'], ['Mandy', 'Rajah', 'Dandelion', 'Olivine', 'Gulf Stream', 'Viking', 'Blue Marguerite', 'Puce'], ['Guardsman Red', 'Fire Bush', 'Golden Dream', 'Chelsea Cucumber', 'Smalt Blue', 'Boston Blue', 'Butterfly Bush', 'Cadillac'], ['Sangria', 'Mai Tai', 'Buddha Gold', 'Forest Green', 'Eden', 'Venice Blue', 'Meteorite', 'Claret'], ['Rosewood', 'Cinnamon', 'Olive', 'Parsley', 'Tiber', 'Midnight Blue', 'Valentino', 'Loulou']],
+    colorsName: [['Black', 'Tundora', 'Dove Gray', 'Star Dust', 'Pale Slate', 'GalleryController', 'Alabaster', 'White'], ['Red', 'Orange Peel', 'Yellow', 'Green', 'Cyan', 'Blue', 'Electric Violet', 'Magenta'], ['Azalea', 'Karry', 'Egg White', 'Zanah', 'Botticelli', 'Tropical Blue', 'Mischka', 'Twilight'], ['Tonys Pink', 'Peach Orange', 'Cream Brulee', 'Sprout', 'Casper', 'Perano', 'Cold Purple', 'Careys Pink'], ['Mandy', 'Rajah', 'Dandelion', 'Olivine', 'Gulf Stream', 'Viking', 'Blue Marguerite', 'Puce'], ['Guardsman Red', 'Fire Bush', 'Golden Dream', 'Chelsea Cucumber', 'Smalt Blue', 'Boston Blue', 'Butterfly Bush', 'Cadillac'], ['Sangria', 'Mai Tai', 'Buddha Gold', 'Forest Green', 'Eden', 'Venice Blue', 'Meteorite', 'Claret'], ['Rosewood', 'Cinnamon', 'Olive', 'Parsley', 'Tiber', 'Midnight Blue', 'Valentino', 'Loulou']],
     colorButton: {
       foreColor: '#000000',
       backColor: '#FFFF00'

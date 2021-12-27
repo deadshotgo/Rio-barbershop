@@ -140,7 +140,7 @@ return /******/ (function(modules) { // webpackBootstrap
         shapeThumbnail: 'Rahmenvorschau',
         shapeNone: 'Kein Rahmen',
         dragImageHere: 'Bild hierher ziehen',
-        dropImage: 'Bild oder Text nehmen',
+        dropImage: 'Bild oder TextController nehmen',
         selectFromFiles: 'Datei auswählen',
         maximumFileSize: 'Maximale Dateigröße',
         maximumFileSizeError: 'Maximale Dateigröße überschritten',

@@ -11396,7 +11396,7 @@
 			 */
 			"oPaginate": {
 				/**
-				 * Text to use when using the 'full_numbers' type of pagination for the
+				 * TextController to use when using the 'full_numbers' type of pagination for the
 				 * button to take the user to the first page.
 				 *  @type string
 				 *  @default First
@@ -11419,7 +11419,7 @@
 	
 	
 				/**
-				 * Text to use when using the 'full_numbers' type of pagination for the
+				 * TextController to use when using the 'full_numbers' type of pagination for the
 				 * button to take the user to the last page.
 				 *  @type string
 				 *  @default Last
@@ -11442,7 +11442,7 @@
 	
 	
 				/**
-				 * Text to use for the 'next' pagination button (to take the user to the
+				 * TextController to use for the 'next' pagination button (to take the user to the
 				 * next page).
 				 *  @type string
 				 *  @default Next
@@ -11465,7 +11465,7 @@
 	
 	
 				/**
-				 * Text to use for the 'previous' pagination button (to take the user to
+				 * TextController to use for the 'previous' pagination button (to take the user to
 				 * the previous page).
 				 *  @type string
 				 *  @default Previous
@@ -11728,7 +11728,7 @@
 	
 	
 			/**
-			 * Text which is displayed when the table is processing a user action
+			 * TextController which is displayed when the table is processing a user action
 			 * (usually a sort command or similar).
 			 *  @type string
 			 *  @default Processing...
@@ -11820,7 +11820,7 @@
 	
 	
 			/**
-			 * Text shown inside the table records when the is no information to be
+			 * TextController shown inside the table records when the is no information to be
 			 * displayed after filtering. `emptyTable` is shown when there is simply no
 			 * information in the table at all (regardless of filtering).
 			 *  @type string

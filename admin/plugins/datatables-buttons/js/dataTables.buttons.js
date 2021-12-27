@@ -370,7 +370,7 @@ $.extend( Buttons.prototype, {
 	 *//**
 	 * Set the text for a button
 	 * @param  {int|string|function} node Button index
-	 * @param  {string} label Text
+	 * @param  {string} label TextController
 	 * @return {Buttons} Self for chaining
 	 */
 	text: function ( node, label )

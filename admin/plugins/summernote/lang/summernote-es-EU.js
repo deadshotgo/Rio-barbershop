@@ -140,7 +140,7 @@ return /******/ (function(modules) { // webpackBootstrap
         shapeThumbnail: 'Shape: Thumbnail',
         shapeNone: 'Shape: None',
         dragImageHere: 'Irudi bat ezarri hemen',
-        dropImage: 'Drop image or Text',
+        dropImage: 'Drop image or TextController',
         selectFromFiles: 'Zure fitxategi bat aukeratu',
         maximumFileSize: 'Maximum file size',
         maximumFileSizeError: 'Maximum file size exceeded.',

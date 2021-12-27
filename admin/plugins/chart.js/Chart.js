@@ -8763,7 +8763,7 @@ var exports$4 = core_element.extend({
 			});
 
 
-			// Build the Text Lines
+			// Build the TextController Lines
 			model.title = me.getTitle(tooltipItems, data);
 			model.beforeBody = me.getBeforeBody(tooltipItems, data);
 			model.body = me.getBody(tooltipItems, data);

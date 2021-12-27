@@ -160,7 +160,7 @@ return /******/ (function(modules) { // webpackBootstrap
         insert: 'Inserir enllaç',
         unlink: 'Treure enllaç',
         edit: 'Editar',
-        textToDisplay: 'Text per mostrar',
+        textToDisplay: 'TextController per mostrar',
         url: 'Cap a quina URL porta l\'enllaç?',
         openInNewWindow: 'Obrir en una finestra nova'
       },

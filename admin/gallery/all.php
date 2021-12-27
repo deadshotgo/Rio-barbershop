@@ -1,7 +1,7 @@
 <?php
 session_start();
 include '../layouts/header.php';
-include '../controller/Gallery/all.php'
+include '../controller/GalleryController/all.php'
 
 ?>
     <section class="content">
@@ -30,7 +30,7 @@ include '../controller/Gallery/all.php'
                                     <?php foreach ($user_data as $row) { ?>
 
                                         <div class="col-sm-4">
-                                            <form method="post" action="../controller/Gallery/del.php">
+                                            <form method="post" action="../controller/GalleryController/del.php">
                                             <div class="position-relative" style="min-height: 180px;  margin-bottom: 30px;">
                                                 <img src="/admin/<?php echo $row['scr']; ?>" style="height: 400px; width: 90%" alt="" class="img-fluid">
                                                 <div class="ribbon-wrapper ribbon-xl">

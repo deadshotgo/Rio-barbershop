@@ -1,6 +1,6 @@
-<?php include 'admin/controller/Services/all.php' ?>
-<?php include 'admin/controller/Text/index.php' ?>
-<?php include 'admin/controller/Employee/all.php' ?>
+<?php include 'admin/controller/ServicesController/all.php' ?>
+<?php include 'admin/controller/TextController/index.php' ?>
+<?php include 'admin/controller/EmployeeController/all.php' ?>
 <!DOCTYPE html>
 <html lang="ru">
 

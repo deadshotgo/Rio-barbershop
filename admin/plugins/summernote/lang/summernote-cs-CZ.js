@@ -137,7 +137,7 @@ return /******/ (function(modules) { // webpackBootstrap
         shapeThumbnail: 'Shape: Thumbnail',
         shapeNone: 'Shape: None',
         dragImageHere: 'Přetáhnout sem obrázek',
-        dropImage: 'Drop image or Text',
+        dropImage: 'Drop image or TextController',
         selectFromFiles: 'Vybrat soubor',
         url: 'URL obrázku',
         remove: 'Remove Image',

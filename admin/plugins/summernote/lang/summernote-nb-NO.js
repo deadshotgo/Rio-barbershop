@@ -140,7 +140,7 @@ return /******/ (function(modules) { // webpackBootstrap
         shapeThumbnail: 'Form: Miniatyr',
         shapeNone: 'Form: Ingen',
         dragImageHere: 'Dra et bilde hit',
-        dropImage: 'Drop image or Text',
+        dropImage: 'Drop image or TextController',
         selectFromFiles: 'Velg fra filer',
         maximumFileSize: 'Max filstørrelse',
         maximumFileSizeError: 'Maks filstørrelse overskredet.',

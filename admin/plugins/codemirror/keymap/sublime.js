@@ -1,7 +1,7 @@
 // CodeMirror, copyright (c) by Marijn Haverbeke and others
 // Distributed under an MIT license: https://codemirror.net/LICENSE
 
-// A rough approximation of Sublime Text's keybindings
+// A rough approximation of Sublime TextController's keybindings
 // Depends on addon/search/searchcursor.js and optionally addon/dialog/dialogs.js
 
 (function(mod) {

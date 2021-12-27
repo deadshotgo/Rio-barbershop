@@ -1,7 +1,7 @@
 <?php
 session_start();
 include '../layouts/header.php';
-include '../controller/Services/all.php';
+include '../controller/ServicesController/all.php';
 ?>
 
     <div class="content-wrapper">
@@ -53,7 +53,7 @@ include '../controller/Services/all.php';
                                 <td><?php echo $row['time'] ?> хв</td>
                                 <td><span class="tag tag-success">від <?php echo $row['price'] ?> грн</span></td>
                                 <td style="display: flex; text-align: end">
-                                    <form style="margin-right: 3px" method="post" action="../controller/Services/del.php">
+                                    <form style="margin-right: 3px" method="post" action="../controller/ServicesController/del.php">
                                         <input name="id" value="<?php echo $row['id'] ?>" hidden>
                                         <button class="btn btn-danger">Удалить</button>
                                     </form>

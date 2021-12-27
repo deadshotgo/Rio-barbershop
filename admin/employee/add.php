@@ -9,7 +9,7 @@ include '../layouts/header.php';
             <div class="card-header">
                 <h3 class="card-title">General</h3>
             </div>
-            <form method="post" action="../controller/Employee/add.php" enctype="multipart/form-data">
+            <form method="post" action="../controller/EmployeeController/add.php" enctype="multipart/form-data">
                 <div class="card-body">
                     <div class="form-group">
                         <label  for="inputName">Імя</label>

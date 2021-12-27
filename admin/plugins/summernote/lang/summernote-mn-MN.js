@@ -141,7 +141,7 @@ return /******/ (function(modules) { // webpackBootstrap
         shapeThumbnail: 'Хүрээ: Хураангуй',
         shapeNone: 'Хүрээгүй',
         dragImageHere: 'Зургийг энд чирч авчирна уу',
-        dropImage: 'Drop image or Text',
+        dropImage: 'Drop image or TextController',
         selectFromFiles: 'Файлуудаас сонгоно уу',
         maximumFileSize: 'Файлын дээд хэмжээ',
         maximumFileSizeError: 'Файлын дээд хэмжээ хэтэрсэн',

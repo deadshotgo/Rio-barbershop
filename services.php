@@ -1,4 +1,4 @@
-<?php include 'admin/controller/Services/all.php';?>
+<?php include 'admin/controller/ServicesController/all.php';?>
 <!DOCTYPE html>
 <html lang="ru">
 

@@ -1,7 +1,7 @@
 <?php
 session_start();
 include '../layouts/header.php';
-include '../controller/Employee/edit.php';
+include '../controller/EmployeeController/edit.php';
 ?>
 <div class="content-wrapper">
     <div class="col-sm-7">
@@ -10,7 +10,7 @@ include '../controller/Employee/edit.php';
             <div class="card-header">
                 <h3 class="card-title">General</h3>
             </div>
-            <form method="post" action="../controller/Employee/edit2.php" enctype="multipart/form-data">
+            <form method="post" action="../controller/EmployeeController/edit2.php" enctype="multipart/form-data">
                 <div class="card-body">
                     <?php foreach ($user_data as $row){ ?>
                     <div class="form-group">

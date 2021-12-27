@@ -204,7 +204,7 @@
     { keys: '<C-x>', type: 'action', action: 'incrementNumberToken', isEdit: true, actionArgs: {increase: false, backtrack: false}},
     { keys: '<C-t>', type: 'action', action: 'indent', actionArgs: { indentRight: true }, context: 'insert' },
     { keys: '<C-d>', type: 'action', action: 'indent', actionArgs: { indentRight: false }, context: 'insert' },
-    // Text object motions
+    // TextController object motions
     { keys: 'a<character>', type: 'motion', motion: 'textObjectManipulation' },
     { keys: 'i<character>', type: 'motion', motion: 'textObjectManipulation', motionArgs: { textObjectInner: true }},
     // Search
@@ -5233,7 +5233,7 @@
     * @param {Cursor} lineStart Line to start replacing from.
     * @param {Cursor} lineEnd Line to stop replacing at.
     * @param {RegExp} query Query for performing matches with.
-    * @param {string} replaceWith Text to replace matches with. May contain $1,
+    * @param {string} replaceWith TextController to replace matches with. May contain $1,
     *     $2, etc for replacing captured groups using Javascript replace.
     * @param {function()} callback A callback for when the replace is done.
     */

@@ -140,7 +140,7 @@ return /******/ (function(modules) { // webpackBootstrap
         shapeThumbnail: 'Forma: miniatiūra',
         shapeNone: 'Forma: jokia',
         dragImageHere: 'Vilkite paveikslėlį čia',
-        dropImage: 'Drop image or Text',
+        dropImage: 'Drop image or TextController',
         selectFromFiles: 'Pasirinkite failą',
         maximumFileSize: 'Maskimalus failo dydis',
         maximumFileSizeError: 'Maskimalus failo dydis viršytas!',

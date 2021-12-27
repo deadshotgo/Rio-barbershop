@@ -374,7 +374,7 @@ RowGroup.defaults = {
 	dataSrc: 0,
 
 	/**
-	 * Text to show if no data is found for a group
+	 * TextController to show if no data is found for a group
 	 * @type string
 	 */
 	emptyDataGroup: 'No group',

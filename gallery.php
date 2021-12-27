@@ -1,4 +1,4 @@
-<?php  include 'admin/controller/Gallery/all.php';?>
+<?php  include 'admin/controller/GalleryController/all.php';?>
 
 <!DOCTYPE html>
 <html lang="en">

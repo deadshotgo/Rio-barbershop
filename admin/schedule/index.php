@@ -1,7 +1,7 @@
 <?php
 session_start();
 include '../layouts/header.php';
-include '../controller/Text/index.php';
+include '../controller/TextController/index.php';
 ?>
     <div class="content-wrapper">
 <div class="col-md-6">
