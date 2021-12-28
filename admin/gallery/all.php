@@ -27,12 +27,12 @@ include '../controller/GalleryController/all.php'
                                 <div class="row">
 
 
-                                    <?php foreach ($user_data as $row) { ?>
+                                    <?php foreach ($user_data1 as $row) { ?>
 
                                         <div class="col-sm-4">
                                             <form method="post" action="../controller/GalleryController/del.php">
                                             <div class="position-relative" style="min-height: 180px;  margin-bottom: 30px;">
-                                                <img src="/admin/<?php echo $row['scr']; ?>" style="height: 400px; width: 90%" alt="" class="img-fluid">
+                                                <img src="../<?= $row['scr'] ?>" style="height: 400px; width: 90%" alt="" class="img-fluid">
                                                 <div class="ribbon-wrapper ribbon-xl">
 
                                                 </div>

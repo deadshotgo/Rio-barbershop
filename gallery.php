@@ -25,10 +25,10 @@
     <h2 class="title">Наша галерея</h2>
     <div class="gallery-list">
 
-        <?php foreach ($user_data as $row ) {?>
+        <?php foreach ($user_data1 as $row ) {?>
       <a href="/admin/<?php echo $row['scr'];?>" class="gallery-item">
         <div class="gallery-item-hover">Переглянути</div>
-        <img src="/admin/<?php echo $row['scr'];?>" alt="alt">
+        <img src="admin/<?= $row['scr'] ?>" alt="alt">
       </a>
       <?php };?>
     </div>
