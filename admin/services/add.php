@@ -15,7 +15,7 @@ include '../layouts/header.php';
         ?>
 <div class="card card-primary">
     <div class="card-header">
-        <h3 class="card-title">General</h3>
+        <h3 class="card-title">Додати послугу</h3>
     </div>
     <form method="post" action="../controller/ServicesController/add.php">
     <div class="card-body">
