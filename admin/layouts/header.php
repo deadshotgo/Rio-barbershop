@@ -79,6 +79,7 @@
                             </p>
                         </a>
                     </li>
+
                     <li class="nav-item has-treeview ">
                         <a href="" class="nav-link ">
                             <i class="fas fa-images"></i>
@@ -222,6 +223,13 @@
                             <p>
                                 Записи
                                 <i class="right fas fa-angle-left"></i>
+                            </p>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="/admin/information/index.php" class="nav-link">
+                            <i class="fas fa-info-circle"></i>
+                             <p>  Детальна інформація
                             </p>
                         </a>
                     </li>
