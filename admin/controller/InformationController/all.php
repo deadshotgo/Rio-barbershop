@@ -9,7 +9,7 @@ if (!$connect) {
 $result = mysqli_query($connect, " SELECT * FROM information;");
 
 
-$user_data = array();
+$user_data3 = array();
 while ($row = mysqli_fetch_array($result)) {
-    $user_data[] = $row;
+    $user_data3[] = $row;
 }

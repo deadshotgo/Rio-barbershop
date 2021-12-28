@@ -27,7 +27,7 @@ include 'admin/controller/InformationController/all.php';
     </ul>
     <a class="instagram" href="https://www.instagram.com/rio_barber_/?utm_medium=copy_link"><i style="-webkit-background-clip: text; -webkit-text-fill-color: transparent;" class="fab fa-instagram insta-icon"></i></a>
     <div class="phone-block">
-        <?php foreach ($user_data as $row){?>
+        <?php foreach ($user_data3 as $row){?>
     	<a href="tel:<?= $row['phone']?>" class="phone"><?= $row['phone'] ?></a>
     <?php }?>
     </div>

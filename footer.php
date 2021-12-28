@@ -4,7 +4,7 @@
 		<div class="footer-block">
 			<div class="self-information">
 				<i class="fas fa-phone-volume"></i>
-                <?php foreach ($user_data as $row ) { ?>
+                <?php foreach ($user_data3 as $row ) { ?>
 				<div class="info-self-item">
 					<h4>Телефон</h4>
 					<p><?= $row['phone'] ?></p>
