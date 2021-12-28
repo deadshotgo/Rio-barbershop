@@ -21,17 +21,17 @@ include '../layouts/header.php';
     <div class="card-body">
         <div class="form-group">
             <label  for="inputName">Назва </label>
-            <input name="title" type="text" id="inputName" class="form-control">
+            <input required  name="title" type="text" id="inputName" class="form-control">
         </div>
 
 
         <div class="form-group">
             <label for="inputClientCompany">Час</label>
-            <input name="time" type="text" id="inputClientCompany" class="form-control">
+            <input required name="time" type="text" id="inputClientCompany" class="form-control">
         </div>
         <div class="form-group">
             <label for="inputProjectLeader">Ціна</label>
-            <input name="price" type="text" id="inputProjectLeader" class="form-control">
+            <input required name="price" type="text" id="inputProjectLeader" class="form-control">
         </div>
     </div>
         <div class="card-footer text-center">

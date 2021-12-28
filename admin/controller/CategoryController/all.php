@@ -1,13 +1,15 @@
 <?php
+
 $connect = mysqli_connect("localhost", "root", "", "rio_barbershop");
 
-if(!$connect) {
+if (!$connect) {
     die("Mysql no work,pleas check connect mysql");
-}
-$result = mysqli_query($connect, " SELECT * FROM product;");
+};
+$result = mysqli_query($connect, "SELECT * FROM category");
 
 
-$user_data = array();
+
+$category_arr = array();
 while ($row = mysqli_fetch_array($result)) {
-$user_data[] = $row;
-}
+    $category_arr[] = $row;
+};

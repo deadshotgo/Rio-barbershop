@@ -176,6 +176,45 @@
                             </li>
                         </ul>
                     </li>
+                    <li class="nav-item has-treeview ">
+                        <a href="" class="nav-link ">
+                            <i class="fas fa-user-friends"></i>
+                            <p>
+                                Продаж
+                                <i class="right fas fa-angle-left"></i>
+                            </p>
+                        </a>
+                        <ul class="nav nav-treeview">
+
+                            <li class="nav-item">
+                                <a href="/admin/product/all.php" class="nav-link">
+                                    <i class="fas fa-users"></i>
+                                    <p>Всі продукти</p>
+                                </a>
+                            </li>
+
+                            <li class="nav-item">
+                                <a href="/admin/category/all.php" class="nav-link">
+                                    <i class="fas fa-users"></i>
+                                    <p>Всі категорії</p>
+                                </a>
+                            </li>
+
+                            <li class="nav-item">
+                                <a href="/admin/product/add.php" class="nav-link ">
+                                    <i class="nav-icon fas fa-plus"></i>
+                                    <p>Додати Продукт</p>
+                                </a>
+                            </li>
+
+                            <li class="nav-item">
+                                <a href="/admin/category/add.php" class="nav-link ">
+                                    <i class="nav-icon fas fa-plus"></i>
+                                    <p>Додати Категорію</p>
+                                </a>
+                            </li>
+                        </ul>
+                    </li>
 
                     <li class="nav-item has-treeview ">
                         <a href="/admin/schedule/index.php" class="nav-link ">

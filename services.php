@@ -50,12 +50,41 @@
             </div>
         </div>
     </section>
+
+
+    <?php include 'admin/controller/carousel.php';
+    $catRes = mysqli_query($connect, "SELECT * FROM `category` ");
+
+    $cat = array();
+    while ($row = mysqli_fetch_array($catRes)) {
+        $cat[] = $row;
+    };
+          foreach( $cat as $row) {
+    ?>
     <section class="carousel-ser">
-        <h2>Товари у продажі</h2>
-        <?php
-            include('carousel.php')
-        ?>
+        <h2>Товари у продажі / <?= $row['title'] ?> </h2>
+        <div class="owl-carousel owl-theme">
+<?php
+$idd = $row['id'];
+$prodRes = mysqli_query($connect, "SELECT * FROM `category` INNER JOIN `product` ON `category`.`id` = `product`.`id_category` WHERE category.id = '$idd';");
+
+$prod = array();
+while ($row = mysqli_fetch_array($prodRes)) {
+    $prod[] = $row;
+}
+foreach ($prod as $col){
+?>
+            <div class="item">
+                <img src="admin/controller/<?= $col['scr'] ?>" alt="">
+                <div class="price">
+                    <h3><?= $col['price'] ?></h3>
+                </div>
+            </div>
+<?php }?>
+        </div>
+
     </section>
+     <?php }?>
     <?php
         include('footer.php')
     ?>

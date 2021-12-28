@@ -13,7 +13,7 @@ include '../layouts/header.php';
                 <div class="card-body">
                     <div class="form-group">
                         <label  for="inputName">Імя</label>
-                        <input name="name" type="text" id="inputName" class="form-control">
+                        <input required name="name" type="text" id="inputName" class="form-control">
                     </div>
 
 
@@ -29,7 +29,7 @@ include '../layouts/header.php';
                 </div>
                 <div class="form-group">
                     <label for="feature_image">Виберіть світлину</label>
-                      <input class="form-control" type="file"  name="full_avatar"
+                      <input required class="form-control" type="file"  name="full_avatar"
                            value="">
 
                 </div>

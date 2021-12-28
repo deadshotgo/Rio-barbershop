@@ -48,7 +48,7 @@ include '../layouts/header.php';
                             <div class="form-group">
                                 <label for="feature_image">Виберіть світлину</label>
                                 <img style="Display:block; width:250px;" src="" alt="" class="img-uploaded">
-                                <input class="form-control" type="file"  name="full_scr"
+                                <input required class="form-control" type="file"  name="full_scr"
                                        value="">
 
                             </div>
