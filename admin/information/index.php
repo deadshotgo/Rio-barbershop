@@ -25,7 +25,7 @@ include '../controller/InformationController/all.php'
                 <form method="post" action="../controller/InformationController/edit.php">
                 <div class="form-group">
                     <label>Графік роботи:</label>
-<?php foreach ($user_data as $row){ ?>
+<?php foreach ($user_data3 as $row){ ?>
                     <div class="input-group">
                         <div class="input-group-prepend">
                             <span class="input-group-text"><i class="far fa-calendar-alt"></i></span>
