@@ -17,7 +17,7 @@ include '../controller/TextController/index.php';
         unset($_SESSION['edit']);
         ?>
         <div class="card-header">
-            <h3 class="card-title">General</h3>
+            <h3 class="card-title">Про нас</h3>
 
 
         </div>

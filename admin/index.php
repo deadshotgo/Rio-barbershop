@@ -35,7 +35,7 @@ include  'controller/index.php';
                             <div class="icon">
                                 <i class="fas fa-music"></i>
                             </div>
-                            <a href="" class="small-box-footer">More info<i
+                            <a href="services/all.php" class="small-box-footer">Більше інформації <i
                                         class="fas fa-arrow-circle-right"></i></a>
                         </div>
                     </div>
@@ -51,7 +51,7 @@ include  'controller/index.php';
                             <div class="icon">
                                 <i class="fas fa-compact-disc"></i>
                             </div>
-                            <a href="" class="small-box-footer">More info <i
+                            <a href="gallery/all.php" class="small-box-footer">Більше інформації <i
                                         class="fas fa-arrow-circle-right"></i></a>
                         </div>
                     </div>
@@ -67,7 +67,7 @@ include  'controller/index.php';
                             <div class="icon">
                                 <i class="ion ion-person-add"></i>
                             </div>
-                            <a href="" class="small-box-footer">More info <i
+                            <a href="employee/all.php" class="small-box-footer">Більше інформації <i
                                         class="fas fa-arrow-circle-right"></i></a>
                         </div>
                     </div>

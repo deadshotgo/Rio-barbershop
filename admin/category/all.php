@@ -105,7 +105,7 @@ include '../controller/CategoryController/all.php';
 
                                         <button type="submit" class="btn btn-primary btn-sm primary-btn">
                                             <i class="fa fa-trash"></i>
-                                            Редактувати
+                                            Редагувати
                                         </button>
                                         <input name="id" value="<?= $row['id']?>" hidden>
                                     </form>
@@ -114,7 +114,7 @@ include '../controller/CategoryController/all.php';
 
                                         <button type="submit" class="btn btn-danger btn-sm delete-btn">
                                             <i class="fa fa-trash"></i>
-                                            Delete
+                                           Видалити
                                             <input name="id" value="<?= $row['id']?>" hidden>
                                         </button>
                                     </form>

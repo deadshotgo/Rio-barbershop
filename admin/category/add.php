@@ -4,7 +4,7 @@ include '../layouts/header.php';
 <div class="content-wrapper">
 <div class="card card-primary col-sm-6">
     <div class="card-header">
-        <h3 class="card-title">Категорія</h3>
+        <h3 class="card-title">Додати категорію</h3>
     </div>
     <!-- /.card-header -->
     <!-- form start -->

@@ -7,7 +7,7 @@ include '../layouts/header.php';
 
         <div class="card card-primary">
             <div class="card-header">
-                <h3 class="card-title">General</h3>
+                <h3 class="card-title">Співробітники</h3>
             </div>
             <form method="post" action="../controller/EmployeeController/add.php" enctype="multipart/form-data">
                 <div class="card-body">

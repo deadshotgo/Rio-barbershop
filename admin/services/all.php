@@ -27,7 +27,7 @@ include '../controller/ServicesController/all.php';
             ?>
             <div class="card">
                 <div class="card-header">
-                    <h3 class="card-title">Responsive Hover Table</h3>
+                    <h3 class="card-title">Послуги </h3>
 
                     <div class="card-tools">
 
@@ -59,7 +59,7 @@ include '../controller/ServicesController/all.php';
                                     </form>
                                     <form method="post" action="edit.php">
                                         <input name="id" value="<?php echo $row['id'] ?>" hidden>
-                                        <button class="btn btn-primary">Редактувати</button>
+                                        <button class="btn btn-primary">Редагувати</button>
                                     </form>
                                 </td>
                             </tr>

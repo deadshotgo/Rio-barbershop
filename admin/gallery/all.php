@@ -20,7 +20,7 @@ include '../controller/GalleryController/all.php'
                     <div class="col-12">
                         <div class="card card-primary">
                             <div class="card-header">
-                                <h3 class="card-title">Ribbons</h3>
+                                <h3 class="card-title">Галерея</h3>
                             </div>
                             <!-- /.card-header -->
                             <div class="card-body">

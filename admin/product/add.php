@@ -5,7 +5,7 @@ include '../controller/ProductController/connect.php';
 <div class="content-wrapper">
 <div class="card card-primary col-sm-6">
               <div class="card-header">
-                <h3 class="card-title">Quick Example</h3>
+                <h3 class="card-title">Додати продукт</h3>
               </div>
               <!-- /.card-header -->
               <!-- form start -->
@@ -20,15 +20,13 @@ include '../controller/ProductController/connect.php';
                         <option value="<?= $row['id']?>"><?= $row['title']?></option>
                         <?php }?>
                     </select>
-                  <div class="form-group">
-                    <label for="exampleInputFile">Виберіть картинку</label>
-                    <div class="input-group">
-                      <div class="custom-file">
-                        <input required type="file" name="full_avatar" class="custom-file-input" id="exampleInputFile">
-                        <label class="custom-file-label" for="exampleInputFile">Картинка</label>
-                      </div>
+                    <div class="form-group ">
+                        <label for="feature_image">Виберіть світлину</label>
+                        <img style="Display:block; width:250px;" src="" alt="" class="img-uploaded">
+                        <input required class="form-control m-1" type="file"  name="full_avatar"
+                               value="">
+
                     </div>
-                  </div>
 
 
 
@@ -36,7 +34,7 @@ include '../controller/ProductController/connect.php';
                 <!-- /.card-body -->
 
                 <div class="card-footer">
-                  <button type="submit" class="btn btn-primary">Submit</button>
+                  <button type="submit" class="btn btn-primary">Додати</button>
                 </div>
               </form>
             </div>
