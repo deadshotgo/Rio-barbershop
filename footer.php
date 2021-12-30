@@ -2,6 +2,7 @@
 <footer class="footer">
 	<div class="container">
 		<div class="footer-block">
+            <?php foreach ($user_data3 as $row ) { ?>
 			<div class="self-information"><a  href="tel:<?= $row['phone']?>">
 				<i class="fas fa-phone-volume"></i>
                 <?php foreach ($user_data3 as $row ) { ?>
