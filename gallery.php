@@ -7,7 +7,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Rio Barbershop - Галерея</title>
-  <link rel="shortcut icon" href="/img/Logo.png" type="img/logo.png">
+  <link rel="shortcut icon" href="img/logo.png" type="img/logo.png">
   <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/magnific-popup.css">
@@ -18,7 +18,7 @@
 <body>
   <hedrer class="header">
         <?php 
-            include('menu.php')
+            include('menuDark.php')
         ?>
     </hedrer>
   <section class="gallery">

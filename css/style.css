@@ -1,16 +1,21 @@
 @import url(../css/fonts.css);
 @import url(../css/modal.css);
 .bg {
-  background-image: url(../img/bg.jpg);
-  background: linear-gradient(rgba(195, 145, 84, 0.4), rgba(2, 0, 0, 0.5)), url("../img/maybeBg.jpg");
-  background-size: cover;
+  background-image: url(../img/mainBg.jpg);
+  background: linear-gradient(rgba(195, 145, 84, 0.4), rgba(2, 0, 0, 0.5)), url("../img/mainBg.jpg"); }
+.bg-cover {
   background-repeat: no-repeat;
-  background-position: top center; }
+  background-position: center center;
+  background-size: cover;
+  -webkit-background-size: cover; }
 
 .bg-main {
   background-size: cover;
   background-repeat: no-repeat;
   background-position: top center; }
+  
+.bg-fixed{
+  background-attachment: fixed;}
 
 .nav {
   max-width: 1320px;
@@ -25,8 +30,11 @@
     display: flex;
     align-items: center; }
     .nav .menu-logo img {
-      max-width: 64px;
-      max-height: 64px; }
+      max-width: 154px;
+      max-height: 154px; }
+    .nav .logo-rio-inst{
+        display: flex;
+    }
     .nav .menu-logo p {
       font-family: "Playfair";
       margin-left: 20px;
@@ -58,6 +66,7 @@
     .nav .home-icon i {
       font-size: 42px; }
   .nav .instagram {
+    margin-left: 15px;
     font-size: 42px; }
     .nav .instagram .insta-icon {
       background: #ffdd55;
@@ -74,6 +83,9 @@
       transition: all 0.3s ease;
       border-color: #bf905c;
       box-shadow: -2px 3px 36px 16px rgba(195, 145, 84, 0.6); }
+    .nav .mob-phone{
+        display: none;
+    }
 
 .footer {
   background-color: #1b1b1b;
@@ -96,14 +108,23 @@
           margin: 0;
           color: #fff;
           margin: 10px 0px; }
+          .footer .footer-block .self-information .info-self-item a {
+            color: #fff; }
+            .footer .footer-block .self-information .info-self-item a p {
+          color: #bf905c; }
         .footer .footer-block .self-information .info-self-item p {
           margin: 0; }
+  .footer .dev {
+    font-family: "open-sans";
+    color: #fff;
+    background-color: #1b1b1b;
+    padding: 10px 0px; }
 
 .header {
-  background-attachment: fixed; }
+   }
   .header .header-text-block {
-    color: #fff;
     height: 100vh;
+    color: #fff;
     padding-bottom: 80px;
     display: grid;
     align-items: center;
@@ -120,9 +141,8 @@
       border-bottom: 2px dashed #bf905c;
       display: inline-block; }
     .header .header-text-block h1 {
-      font-size: 52px;
+      font-size: 32px;
       text-transform: uppercase;
-      font-family: "Lobster";
       margin: 30px 0px; }
 
 .about-us {
@@ -300,11 +320,17 @@
       .header .nav .home-icon {
         margin: 20px 0px;
         display: block; }
+    .nav .admin-icon{
+        display: none;
+    }
     .header .header-text-block {
       max-width: 100%;
       text-align: center; }
       .header .header-text-block .logotip-text {
         justify-content: center; }
+    .services .services-price .price-item{
+        display: block;
+    } 
 
   .about-us {
     height: 100%; }
@@ -328,11 +354,51 @@
       .footer .footer-block .self-information .info-self-item {
         max-width: 100%; } }
 @media (max-width: 578px) {
+  .bg{
+      background: url(../img/Ladykiller.jpg);
+      background-repeat: no-repeat;
+      background-position: center center;
+      background-size: cover;
+  }
   .header {
     height: 100%; }
     .header .header-text-block {
-      height: 100vh;
-      padding-bottom: 50px; }
+      padding-bottom: 50px;
+      height: 100%;}
+    .header .header-text-block h1 {
+      font-size: 22px; }
+    .nav .admin-icon{
+        display: none;
+    }
+    .nav .menu-logo img {
+      max-width: 80px;}
+    .nav .logo-rio-inst{
+       align-items: center;
+    }
+    .nav .instagram {
+      font-size: 32px;
+      margin-bottom: 15px; }
+    .nav .phone-block{
+        display: none;
+    }
+    .nav .phone-block:nth-child(2) {
+      display: block;
+      }
+    /*.nav .mob-phone{*/
+    /*    display: block;*/
+    /*}*/
+    .services .services-price .price-item{
+        display: block;
+    }
+    .header .header-text-block .logotip-text{
+        display: none;
+    }
+    .order-btn{
+        margin-top: 140px;
+    }
+    .header .header-text-block h1{
+        color: #000;
+    }
 
   .our-room .gallery, .our-room .gallery-second {
     grid-template-columns: 1fr;

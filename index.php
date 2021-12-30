@@ -8,13 +8,13 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Rio Barbershop</title>
-    <link rel="shortcut icon" href="/img/Logo.png" type="img/logo.png">
+    <link rel="shortcut icon" href="img/logo.png" type="img/logo.png">
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
 </head>
 
 <body>
-<header class="header bg">
+<header class="header bg bg-cover bg-fixed">
     <?php
     include('menu.php')
     ?>
@@ -23,10 +23,9 @@
             <div class="main-title-block">
                 <div class="logotip-text">
                     <h3>Rio Barbershop</h3>
-                    <img src="img/icons8-lion-40.png" alt="">
                 </div>
                 <h1>Ми допоможемо вам отримати свій новий стиль</h1>
-                <a id="btn-open" class="btn-ser">Записатися на прийом</a>
+                <div class="order-btn"><a id="btn-open" class="btn-ser">Записатися на прийом</a></div>
                 <div id="wrapper-modal">
                   <div id="overlay"></div>
                   <div id="modal-window">
@@ -201,9 +200,11 @@
 include('footer.php')
 ?>
 <script src="https://kit.fontawesome.com/8c3e319e45.js" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" referrerpolicy="no-referrer"></script>
 <script src="js/menu.js"></script>
 <script src="js/main.js"></script>
 <script src="js/scroll.js"></script>
+<script src="js/noFixed.js"></script>
 </body>
 
 </html>

@@ -6,7 +6,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Rio Barbershop - Послуги</title>
-    <link rel="shortcut icon" href="/img/Logo.png" type="img/logo.png">
+    <link rel="shortcut icon" href="img/logo.png" type="img/logo.png">
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
@@ -16,7 +16,7 @@
 <body>
     <hedrer class="header">
         <?php
-            include('menu.php')
+            include('menuDark.php')
         ?>
         <div id="wrapper-modal">
             <div id="overlay"></div>
@@ -62,7 +62,7 @@
           foreach( $cat as $row) {
     ?>
     <section class="carousel-ser">
-        <h2>Товари у продажі / <?= $row['title'] ?> </h2>
+        <h2>Товари для продажу / <?= $row['title'] ?> </h2>
         <div class="owl-carousel owl-theme">
 <?php
 $idd = $row['id'];
