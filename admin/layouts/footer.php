@@ -45,8 +45,8 @@
 <!-- AdminLTE for demo purposes -->
 <script src="/admin/dist/js/demo.js"></script>
 <script src="/admin/admin.js"></script>
-<script type="text/javascript" src="../css/admin/dist/js/jquery.colorbox-min.js"></script>
-<script type="text/javascript" src="/packages/barryvdh/elfinder/js/standalonepopup.js"></script>
+
+
 
 
 <script referrerpolicy="origin"></script>

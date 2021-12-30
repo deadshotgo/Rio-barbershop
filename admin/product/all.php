@@ -53,7 +53,7 @@ include '../controller/ProductController/all.php'
 
 
                                                     <div style="width: 90%" class=" card-footer text-center">
-                                                                <h3><?= $row['price'] ?> грн</h3>
+                                                                <h3><?= $row['price'] ?></h3>
                                                     </div>
                                                     <div style="width: 90%; display: flex;" class="card-footer text-center" >
                                                         <form style="margin-right: 4%" method="post" action="../controller/ProductController/del.php">

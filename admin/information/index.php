@@ -1,7 +1,7 @@
 <?php
 session_start();
 include '../layouts/header.php';
-include '../controller/InformationController/all.php'
+include '../controller/InformationController/all.php';
 ?>
 
 <div class="content-wrapper">
@@ -30,23 +30,14 @@ include '../controller/InformationController/all.php'
                         <div class="input-group-prepend">
                             <span class="input-group-text"><i class="far fa-calendar-alt"></i></span>
                         </div>
-                        <input name="Graf" type="text" value="<?= $row['schedule'] ?>" class="form-control" data-inputmask-alias="datetime" data-inputmask-inputformat="dd/mm/yyyy" data-mask="" im-insert="false">
+                        <input required name="Graf" type="text" value="<?= $row['schedule'] ?>" class="form-control" data-inputmask-alias="datetime" data-inputmask-inputformat="dd/mm/yyyy" data-mask="" im-insert="false">
                     </div>
                     <!-- /.input group -->
                 </div>
                 <!-- /.form group -->
 
                 <!-- Date mm/dd/yyyy -->
-                <div class="form-group">
-                    <label>Адреса:</label>
-                    <div class="input-group">
-                        <div class="input-group-prepend">
-                            <span class="input-group-text"><i class="fas fa-map-marked-alt"></i></span>
-                        </div>
-                        <input name="addres" type="text"  value="<?= $row['addres']; ?>" class="form-control" data-inputmask-alias="datetime"  data-mask="" im-insert="false">
-                    </div>
-                    <!-- /.input group -->
-                </div>
+
                 <!-- /.form group -->
 
                 <!-- phone mask -->
@@ -57,7 +48,7 @@ include '../controller/InformationController/all.php'
                         <div class="input-group-prepend">
                             <span class="input-group-text"><i class="fas fa-phone"></i></span>
                         </div>
-                        <input name="phone" type="text" value="<?= $row['phone']; ?>" class="form-control" data-inputmask="&quot;mask&quot;: &quot;(999) 999-9999&quot;" data-mask="" im-insert="true">
+                        <input required name="phone" type="text" value="<?= $row['phone']; ?>" class="form-control" data-inputmask="&quot;mask&quot;: &quot;(999) 999-9999&quot;" data-mask="" im-insert="true">
                     </div>
                     <!-- /.input group -->
                 </div>

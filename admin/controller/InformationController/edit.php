@@ -7,9 +7,7 @@ if (!$connect) {
     die("Mysql no work,pleas check connect mysql");
 }
 $phone = $_POST['phone'];
-$addres = $_POST['addres'];
-$Graf = $_POST['Graf'];
 
-mysqli_query($connect, "UPDATE information SET phone = '$phone', addres ='$addres', schedule ='$Graf' ");
+mysqli_query($connect, "UPDATE information SET phone = '$phone'");
 $_SESSION['edit'] = 'Редак';
 header('Location: /admin/information/index.php');

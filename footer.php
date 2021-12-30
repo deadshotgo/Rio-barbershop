@@ -2,7 +2,7 @@
 <footer class="footer">
 	<div class="container">
 		<div class="footer-block">
-			<div class="self-information"><a href="tel:+380950203940">
+			<div class="self-information"><a  href="tel:<?= $row['phone']?>">
 				<i class="fas fa-phone-volume"></i>
                 <?php foreach ($user_data3 as $row ) { ?>
 				<div class="info-self-item">
@@ -14,14 +14,14 @@
 				<i class="fas fa-map-marker-alt"></i>
 				<div class="info-self-item">
 					<h4>Адреса</h4>
-					<p><?= $row['addres']?></p>
+					<p>ул.Александра Довженка, 14/1. Киев, 02000</p>
 				</a></div>
 			</div>
 			<div class="self-information">
 				<i class="far fa-clock"></i>
 				<div class="info-self-item">
 					<h4>Графік</h4>
-					<p><?= $row['schedule']?></p>
+					<p><?= $row['schedule'] ?></p>
 				</div>
 			</div>
             <?php }?>

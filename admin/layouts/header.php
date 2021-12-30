@@ -26,7 +26,7 @@
     <link href="summernote-bs5.css" rel="stylesheet">
     <script src="summernote-bs5.js"></script>
 
-    <link rel="stylesheet" href="/admin/plugins/jqvmap/jqvmap.min.css">
+
     <!-- Theme style -->
     <link rel="stylesheet" href="/admin/dist/css/adminlte.min.css">
 
